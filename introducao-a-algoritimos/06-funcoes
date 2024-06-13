@@ -1,0 +1,20 @@
+# Funções tambem são chamadas de subprogramas
+INICIO principal
+    VAR lista_numeros: ARRAY(INTEIROS)
+    MOSTRAR "Vamos obter os numeros: "
+    CHAMAR OBTER_NUMEROS -> lista_numeros
+    MOSTRAR "Agora, mostrar os numeros: "
+    MOSTRAR lista_numeros
+FIM
+
+
+INICIO OBTER_NUMEROS
+    VAR lista_numeros_func: ARRAY(INTEIRO)
+    VAR numero: INTEIRO
+    ENQUANTO TAMANHO(lista_numeros) MENOR_QUE 10
+        MOSTRAR "Digite um numero "
+        ESPERAR_DIGITACAO -> numero
+        ADICIONAR_ITEM numero, lista_numeros_func
+    FIM ENQUANTO
+    RETORNAR lista_numeros_func
+FIM OBTER_NUMEROS

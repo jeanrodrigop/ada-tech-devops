@@ -1,0 +1,10 @@
+INICIO principal
+    VAR soma: INTEIRO
+    ARMAZENAR 0 -> soma
+    ENQUANTO soma MENOR_QUE 100
+        MOSTRAR "Digite um numero: "
+        ESPERAR_DIGITACAO -> numero
+        SOMAR soma, numero -> soma
+    FIM ENQUANTO
+    MOSTRAR soma
+FIM

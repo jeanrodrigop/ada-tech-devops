@@ -1,0 +1,11 @@
+# Entender em como transformar a entrada em saida
+# Inicio -> Entrada -> Processamento -> Saida -> Final
+# Inicio -> Pedir o nome da pessoa -> Armazenar o nome da pessoa -> Juntar o nome da pessoa ao texto de "Bom dia" -> Mostrar a frase montada -> Final
+#
+# INICIO principal
+#    MOSTRAR 'Digite seu nome:'
+#    ESPERAR_DIGITACAO -> nome
+#    JUNTAR_TEXTO 'Bom dia',nome -> saudacao
+#    MOSTRAR_TEXTO saudacao
+# FIM
+#

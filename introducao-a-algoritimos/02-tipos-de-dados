@@ -1,0 +1,25 @@
+Numerico -> inteiros(1, 2, 3...) e pontos flutuantes(0.1, 1.4, 2.6 ...)
+Caracteres -> textos
+Booleano -> verdadeiro(1) ou falso(0)
+
+Obter o primeiro numero 
+Armazenar o primeiro numero -> n1
+Obter o segundo numero
+Armazenar o segundo numero -> n2
+Somar n1 e n2 -> resultado
+Mostrar resultado
+
+INICIO principal
+    VAR n1: INTEIRO
+    VAR n2: INTEIRO
+
+    DEFINIR 0 -> n1
+    DEFINIR 0 -> n2
+
+    MOSTRAR "Digite o primeiro numero: "
+    ESPERAR_DIGITACAO -> n1
+    MOSTRAR "Digite o segundo numero: "
+    ESPERAR_DIGITACAO -> n2
+    SOMAR n1, n2 -> resultado
+    MOSTRAR resultado
+FIM
